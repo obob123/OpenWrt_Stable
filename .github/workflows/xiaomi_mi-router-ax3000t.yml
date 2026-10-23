@@ -1,5 +1,5 @@
 #CI项目名
-name: XIAOMI_MI_ROUTER_AX3000T
+name: xiaomi_mi-router-ax3000t
 
 on:
   #自动编译：每天早上4点
@@ -26,6 +26,6 @@ jobs:
       #默认密码，仅作展示，更改无效
       OWRT_PW: password
       #默认地址
-      OWRT_IP: 192.168.6.1
+      OWRT_IP: 192.168.10.1
       #默认源码
       OWRT_URL: https://github.com/hanwckf/immortalwrt-mt798x.git
